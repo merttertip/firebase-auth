@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  button {
+    @apply p-2 cursor-pointer bg-purple-500 rounded-2xl transition duration-300 hover:brightness-75;
+  }
+}
